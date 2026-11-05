@@ -49,7 +49,7 @@ export default function Hero() {
             </button>
 
             <a
-              href="/cv-irfan.pdf"
+              href="/image/CV_Irfan.pdf"
               download
               className="inline-flex items-center gap-2 rounded-xl border border-cyan-500 px-5 py-2.5 font-semibold text-cyan-500 hover:bg-cyan-500/10 transition"
             >
