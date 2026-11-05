@@ -188,7 +188,6 @@ import {
   SiNextdotjs,
   SiTailwindcss,
   SiMysql,
-  SiPostgresql,
   SiRedis,
   SiMeilisearch,
   SiGithub,
@@ -199,7 +198,6 @@ import {
   SiLivewire,
   SiAlpinedotjs,
   SiFastapi,
-  SiReverbnation,
   SiHtml5,
   SiCss,
 } from "react-icons/si";

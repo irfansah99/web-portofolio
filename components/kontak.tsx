@@ -1,7 +1,5 @@
 import {
   IoLogoFacebook,
-  IoLogoTwitter,
-  IoLogoYoutube,
   IoLogoWhatsapp,
   IoLogoInstagram,
   IoLogoGithub,

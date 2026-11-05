@@ -1,6 +1,6 @@
 "use client";
 
-import { Bars3Icon, XMarkIcon } from "@heroicons/react/16/solid";
+import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid";
 import { motion, useScroll, useSpring } from "motion/react";
 import { Monoton } from "next/font/google";
 import { useEffect, useState } from "react";
