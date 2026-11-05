@@ -7,10 +7,8 @@ import { useEffect, useState } from "react";
 import {
   IoLogoFacebook,
   IoLogoGithub,
-  IoLogoInstagram,
-  IoLogoTwitter,
+  IoLogoLinkedin,
   IoLogoWhatsapp,
-  IoLogoYoutube,
 } from "react-icons/io";
 import { MdEmail } from "react-icons/md";
 const monoton = Monoton({
@@ -117,7 +115,6 @@ export default function Navbar() {
               {[
                 ["Beranda", "/#beranda"],
                 ["Tentang Saya", "/#tentang"],
-                ["Keahlian", "/#keahlian"],
                 ["Proyek", "/#projek"],
                 ["Hubungi Saya", "/#kontak"],
               ].map(([title, href]) => (
@@ -146,7 +143,7 @@ export default function Navbar() {
               <ul className="flex my-3 gap-4 text-2xl  text-slate-400 items-center justify-center">
                 <li>
                   <a
-                    href="https://facebook.com"
+                    href="https://www.facebook.com/share/1AEr3j4FNc"
                     aria-label="Facebook"
                     className="hover:text-blue-600 transition-colors duration-300"
                     target="_blank"
@@ -158,7 +155,7 @@ export default function Navbar() {
 
                 <li>
                   <a
-                    href="https://wa.me/1234567890"
+                    href="https://wa.me/085697202457"
                     aria-label="WhatsApp"
                     className="hover:text-green-500 transition-colors duration-300"
                     target="_blank"
@@ -169,30 +166,28 @@ export default function Navbar() {
                 </li>
                 <li>
                   <a
-                    href="https://instagram.com"
-                    aria-label="Instagram"
-                    className="hover:text-pink-500 transition-colors duration-300"
+                    href="https://www.linkedin.com/in/irfan-sah-ramadhani-a15411382/"
+                    aria-label="Linkedin"
+                    className="hover:text-sky-400 transition-colors duration-300"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <IoLogoInstagram />
+                    <IoLogoLinkedin />
                   </a>
                 </li>
                 <li>
                   <a
-                    href="https://instagram.com"
-                    aria-label="Instagram"
+                    href="mailto:irfansyah3657@gmail.com"
+                    aria-label="Email"
                     className="hover:text-red-500 transition-colors duration-300"
-                    target="_blank"
-                    rel="noopener noreferrer"
                   >
                     <MdEmail />
                   </a>
                 </li>
                 <li>
                   <a
-                    href="https://instagram.com"
-                    aria-label="Instagram"
+                    href="https://github.com/irfansah99"
+                    aria-label="Github"
                     className="hover:bg-slate-400 transition-colors duration-300"
                     target="_blank"
                     rel="noopener noreferrer"

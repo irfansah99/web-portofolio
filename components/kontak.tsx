@@ -11,7 +11,10 @@ export default function Kontak() {
     <div className="mx-auto   w-[80vw] lg:w-[70vw]">
       <div className="mb-12 text-center">
         <h1 className="text-3xl font-bold md:text-4xl">Kontak</h1>
-        <p className="mt-3 text-white/80">Hubungi saya.</p>
+        <p className="mt-3 text-white/80">
+          Saya terbuka terhadap kesempatan kerja dan kolaborasi di bidang
+          pengembangan aplikasi web.
+        </p>
       </div>
       <ul className="flex mt-3 gap-6 text-2xl lg:text-6xl text-white items-center justify-center">
         <li>
